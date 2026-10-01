@@ -1,0 +1,37 @@
+## Interface: 16001
+## Title: BtWQuests: Forever
+## Version: 0.1.0
+## Notes: Dados de quests do WoW Forever para o BtWQuests.
+## Author: Breen
+## Dependencies: BTWQuests
+## LoadOnDemand: 1
+## X-BtWQuests: Forever
+## X-BtWQuests-Expansion: 160
+## X-BtWQuests-AutoLoad: 1
+## X-Part-Of: BTWQuests
+## Group: BTWQuests
+
+Defines.lua
+Localization.lua
+Localization.ptBR.lua
+
+Database/Quests.lua
+Database/Quests.ptBR.lua
+Database/NPCs.lua
+Database/NPCs.ptBR.lua
+Database/Objects.lua
+Database/Index.enUS.lua
+Database/Index.ptBR.lua
+
+ZoneBuilder.lua
+Zones/ElwynnForest.lua
+Zones/BurningSteppes.lua
+Zones/Duskwood.lua
+Zones/HillsbradFoothills.lua
+Zones/RedridgeMountains.lua
+Zones/WesternPlaguelands.lua
+Zones/Wetlands.lua
+Zones/Darkshore.lua
+Zones/DustwallowMarsh.lua
+Zones/Zone16593.lua
+General.lua

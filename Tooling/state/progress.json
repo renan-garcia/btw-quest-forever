@@ -1,0 +1,7923 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-01T08:03:18Z",
+  "zones": {
+    "eastern-kingdoms/elwynn-forest": {
+      "status": "partial",
+      "continent": "eastern-kingdoms",
+      "slug": "elwynn-forest",
+      "area_id": 12,
+      "name_en": "Elwynn Forest",
+      "name_pt": "Floresta de Elwynn",
+      "ui_map_id": 1429,
+      "list_truncated": false,
+      "quest_ids": [
+        91733,
+        91775,
+        91777,
+        99130,
+        91741,
+        91736,
+        91743,
+        91772,
+        91753,
+        91740,
+        91738,
+        91752,
+        176,
+        91745,
+        91723,
+        91746,
+        91732,
+        91725,
+        91758,
+        91724,
+        123,
+        91751,
+        99131,
+        99127,
+        87,
+        147,
+        92124,
+        59,
+        99128,
+        99143,
+        46,
+        88,
+        95771,
+        99129,
+        71,
+        39,
+        45,
+        37,
+        21,
+        11,
+        109,
+        18,
+        783,
+        62,
+        6,
+        61,
+        76,
+        35,
+        112,
+        83,
+        7,
+        54,
+        40,
+        114,
+        52,
+        60,
+        85,
+        239,
+        47,
+        106,
+        3903,
+        86,
+        15,
+        107,
+        111,
+        3905,
+        33,
+        2158,
+        3904,
+        5261,
+        84,
+        5545,
+        16,
+        7962,
+        5805,
+        7961
+      ],
+      "constant": "ElwynnForest",
+      "locale_key": "ELWYNN_FOREST",
+      "lua_file": "Zones/ElwynnForest.lua",
+      "warcraftdb_ids": [
+        11,
+        16,
+        35,
+        37,
+        39,
+        40,
+        45,
+        46,
+        47,
+        52,
+        59,
+        60,
+        61,
+        62,
+        71,
+        76,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        106,
+        107,
+        109,
+        111,
+        112,
+        114,
+        147,
+        176,
+        239,
+        2158,
+        5545,
+        91723,
+        91724,
+        91725,
+        91732,
+        91733,
+        91751,
+        91775,
+        91777,
+        99127,
+        99128,
+        99129,
+        99130,
+        99143
+      ],
+      "foreverdb_classic_note": true,
+      "chains": [
+        {
+          "constant": "Series1",
+          "locale_key": "ElwynnForest_1",
+          "quests": [
+            91741,
+            91743,
+            91745,
+            91752,
+            91758,
+            91772,
+            91775,
+            91777
+          ],
+          "range": [
+            2,
+            7
+          ],
+          "required_level": 1,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Nibbled-On Book",
+          "name_pt": "Livro mordiscado",
+          "id": 160201,
+          "race_id": null
+        },
+        {
+          "constant": "Series2",
+          "locale_key": "ElwynnForest_2",
+          "quests": [
+            85,
+            86,
+            84,
+            87
+          ],
+          "range": [
+            6,
+            8
+          ],
+          "required_level": 5,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Lost Necklace",
+          "name_pt": "O colar perdido",
+          "id": 160202,
+          "race_id": null
+        },
+        {
+          "constant": "Series3",
+          "locale_key": "ElwynnForest_3",
+          "quests": [
+            40,
+            35,
+            37,
+            45,
+            71,
+            39,
+            59
+          ],
+          "range": [
+            10,
+            10
+          ],
+          "required_level": 7,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "A Fishy Peril",
+          "name_pt": "Perigo anfíbio",
+          "id": 160203,
+          "race_id": null
+        },
+        {
+          "constant": "Series4",
+          "locale_key": "ElwynnForest_4",
+          "quests": [
+            15,
+            21
+          ],
+          "range": [
+            3,
+            5
+          ],
+          "required_level": 1,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Investigate Echo Ridge",
+          "name_pt": "Investigue a Serra do Eco",
+          "id": 160204,
+          "race_id": null
+        },
+        {
+          "constant": "Series5",
+          "locale_key": "ElwynnForest_5",
+          "quests": [
+            239,
+            11
+          ],
+          "range": [
+            10,
+            10
+          ],
+          "required_level": 6,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Westbrook Garrison Needs Help!",
+          "name_pt": "Ribeira d'Oeste precisa de ajuda!",
+          "id": 160205,
+          "race_id": null
+        },
+        {
+          "constant": "Series6",
+          "locale_key": "ElwynnForest_6",
+          "quests": [
+            783,
+            7
+          ],
+          "range": [
+            1,
+            2
+          ],
+          "required_level": 1,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "A Threat Within",
+          "name_pt": "A ameaça interna",
+          "id": 160206,
+          "race_id": null
+        },
+        {
+          "constant": "Series7",
+          "locale_key": "ElwynnForest_7",
+          "quests": [
+            62,
+            76
+          ],
+          "range": [
+            7,
+            10
+          ],
+          "required_level": 4,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "The Fargodeep Mine",
+          "name_pt": "A Mina Vailafundo",
+          "id": 160207,
+          "race_id": null
+        },
+        {
+          "constant": "Series8",
+          "locale_key": "ElwynnForest_8",
+          "quests": [
+            60,
+            61
+          ],
+          "range": [
+            7,
+            7
+          ],
+          "required_level": 3,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Kobold Candles",
+          "name_pt": "Velas dos kobolds",
+          "id": 160208,
+          "race_id": null
+        },
+        {
+          "constant": "Series9",
+          "locale_key": "ElwynnForest_9",
+          "quests": [
+            106,
+            111,
+            107,
+            112
+          ],
+          "range": [
+            6,
+            7
+          ],
+          "required_level": 5,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Young Lovers",
+          "name_pt": "Jovens amantes",
+          "id": 160209,
+          "race_id": null
+        },
+        {
+          "constant": "Series10",
+          "locale_key": "ElwynnForest_10",
+          "quests": [
+            3903,
+            3904,
+            3905
+          ],
+          "range": [
+            4,
+            4
+          ],
+          "required_level": 2,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Milly Osworth",
+          "name_pt": "Madel Quintana",
+          "id": 160210,
+          "race_id": null
+        },
+        {
+          "constant": "Series11",
+          "locale_key": "ElwynnForest_11",
+          "quests": [
+            5261,
+            33
+          ],
+          "range": [
+            2,
+            2
+          ],
+          "required_level": 1,
+          "complete_all": false,
+          "faction": "Alliance",
+          "name_en": "Eagan Peltskinner",
+          "name_pt": "Enzo Peleteiro",
+          "id": 160211,
+          "race_id": null
+        },
+        {
+          "constant": "Other",
+          "locale_key": "ElwynnForest_Other",
+          "quests": [
+            91736,
+            16,
+            5805,
+            92124,
+            18,
+            6,
+            54,
+            2158,
+            47,
+            114,
+            91751,
+            91753,
+            99127,
+            99128,
+            99129,
+            99130,
+            99131,
+            99143,
+            83,
+            88,
+            5545,
+            46,
+            52,
+            109,
+            123,
+            147,
+            91723,
+            91724,
+            91725,
+            91732,
+            91733,
+            91738,
+            91740,
+            91746,
+            176
+          ],
+          "range": [
+            1,
+            11
+          ],
+          "required_level": 1,
+          "complete_all": true,
+          "faction": "Alliance",
+          "name_en": "Other quests",
+          "name_pt": "Outras missões",
+          "id": 160212,
+          "race_id": null
+        },
+        {
+          "constant": "Neutral",
+          "locale_key": "ElwynnForest_Neutral",
+          "quests": [
+            7961,
+            7962,
+            95771
+          ],
+          "range": [
+            1,
+            10
+          ],
+          "required_level": 1,
+          "complete_all": true,
+          "faction": null,
+          "name_en": "Neutral quests",
+          "name_pt": "Missões neutras",
+          "id": 160213,
+          "race_id": null
+        },
+        {
+          "constant": "ClassStormwindCity343",
+          "locale_key": "StormwindCity_ElwynnForest_343",
+          "id": 160601,
+          "quests": [
+            343,
+            344,
+            345,
+            347,
+            346
+          ],
+          "range": [
+            24,
+            24
+          ],
+          "required_level": 20,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Speaking of Fortitude",
+          "name_pt": "Falando sobre fortitude",
+          "race_id": null
+        },
+        {
+          "constant": "ClassStormwindCity6403",
+          "locale_key": "StormwindCity_ElwynnForest_6403",
+          "id": 160602,
+          "quests": [
+            6403,
+            6501
+          ],
+          "range": [
+            60,
+            60
+          ],
+          "required_level": 50,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "The Great Masquerade",
+          "name_pt": "O grande baile de máscaras",
+          "race_id": null
+        }
+      ],
+      "category_id": 16001
+    },
+    "eastern-kingdoms/alterac-mountains": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "alterac-mountains",
+      "area_id": 36,
+      "name_en": "alterac-mountains",
+      "name_pt": "alterac-mountains",
+      "constant": "AlteracMountains",
+      "locale_key": "ALTERAC_MOUNTAINS",
+      "chains": []
+    },
+    "eastern-kingdoms/alterac-valley": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "alterac-valley",
+      "area_id": 2839,
+      "name_en": "alterac-valley"
+    },
+    "eastern-kingdoms/anvilmar": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "anvilmar",
+      "area_id": 77,
+      "name_en": "Anvilmar"
+    },
+    "eastern-kingdoms/arathi-highlands": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "arathi-highlands",
+      "area_id": 45,
+      "name_en": "arathi-highlands"
+    },
+    "eastern-kingdoms/badlands": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "badlands",
+      "area_id": 3,
+      "name_en": "badlands"
+    },
+    "eastern-kingdoms/blackrock-mountain": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "blackrock-mountain",
+      "area_id": 25,
+      "name_en": "blackrock-mountain"
+    },
+    "eastern-kingdoms/blasted-lands": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "blasted-lands",
+      "area_id": 4,
+      "name_en": "blasted-lands"
+    },
+    "eastern-kingdoms/burning-steppes": {
+      "status": "done",
+      "continent": "eastern-kingdoms",
+      "slug": "burning-steppes",
+      "area_id": 46,
+      "name_en": "burning-steppes",
+      "name_pt": "burning-steppes",
+      "constant": "BurningSteppes",
+      "locale_key": "BURNING_STEPPES",
+      "lua_file": "Zones/BurningSteppes.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCityOtherAlliance",
+          "locale_key": "StormwindCity_BurningSteppes_OtherAlliance",
+          "id": 160401,
+          "quests": [
+            6402
+          ],
+          "range": [
+            60,
+            60
+          ],
+          "required_level": 50,
+          "complete_all": true,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Other quests",
+          "name_pt": "Outras missões",
+          "race_id": null
+        }
+      ],
+      "category_id": 16003
+    },
+    "eastern-kingdoms/crafting": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "crafting",
+      "area_id": 16941,
+      "name_en": "Crafting"
+    },
+    "eastern-kingdoms/deeprun-tram": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "deeprun-tram",
+      "area_id": 2257,
+      "name_en": "Deeprun Tram"
+    },
+    "eastern-kingdoms/dun-morogh": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "dun-morogh",
+      "area_id": 1,
+      "name_en": "Dun Morogh"
+    },
+    "eastern-kingdoms/duskwood": {
+      "status": "done",
+      "continent": "eastern-kingdoms",
+      "slug": "duskwood",
+      "area_id": 10,
+      "name_en": "Duskwood",
+      "name_pt": "Duskwood",
+      "constant": "Duskwood",
+      "locale_key": "DUSKWOOD",
+      "lua_file": "Zones/Duskwood.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCity1274",
+          "locale_key": "StormwindCity_Duskwood_1274",
+          "id": 160501,
+          "quests": [
+            1274,
+            1241,
+            1242,
+            1243,
+            1244,
+            1245,
+            1246,
+            1447,
+            1247,
+            1248,
+            1249
+          ],
+          "range": [
+            28,
+            33
+          ],
+          "required_level": 28,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "The Missing Diplomat",
+          "name_pt": "O diplomata desaparecido",
+          "race_id": null
+        }
+      ],
+      "category_id": 16004
+    },
+    "eastern-kingdoms/eastern-plaguelands": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "eastern-plaguelands",
+      "area_id": 139,
+      "name_en": "eastern-plaguelands"
+    },
+    "eastern-kingdoms/hillsbrad-foothills": {
+      "status": "done",
+      "continent": "eastern-kingdoms",
+      "slug": "hillsbrad-foothills",
+      "area_id": 267,
+      "name_en": "Hillsbrad Foothills",
+      "name_pt": "Hillsbrad Foothills",
+      "constant": "HillsbradFoothills",
+      "locale_key": "HILLSBRAD_FOOTHILLS",
+      "lua_file": "Zones/HillsbradFoothills.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCity538",
+          "locale_key": "StormwindCity_HillsbradFoothills_538",
+          "id": 160701,
+          "quests": [
+            538,
+            542
+          ],
+          "range": [
+            38,
+            38
+          ],
+          "required_level": 20,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Southshore",
+          "name_pt": "Costa Sul",
+          "race_id": null
+        }
+      ],
+      "category_id": 16005
+    },
+    "eastern-kingdoms/ironforge": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "ironforge",
+      "area_id": 1537,
+      "name_en": "Ironforge"
+    },
+    "eastern-kingdoms/kharanos": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "kharanos",
+      "area_id": 131,
+      "name_en": "kharanos"
+    },
+    "eastern-kingdoms/loch-modan": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "loch-modan",
+      "area_id": 38,
+      "name_en": "Loch Modan"
+    },
+    "eastern-kingdoms/redridge-mountains": {
+      "status": "done",
+      "continent": "eastern-kingdoms",
+      "slug": "redridge-mountains",
+      "area_id": 44,
+      "name_en": "Redridge Mountains",
+      "name_pt": "Redridge Mountains",
+      "constant": "RedridgeMountains",
+      "locale_key": "REDRIDGE_MOUNTAINS",
+      "lua_file": "Zones/RedridgeMountains.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCityOtherAlliance",
+          "locale_key": "StormwindCity_RedridgeMountains_OtherAlliance",
+          "id": 160801,
+          "quests": [
+            1097
+          ],
+          "range": [
+            15,
+            15
+          ],
+          "required_level": 9,
+          "complete_all": true,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Other quests",
+          "name_pt": "Outras missões",
+          "race_id": null
+        }
+      ],
+      "category_id": 16006
+    },
+    "eastern-kingdoms/riverglades": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "riverglades",
+      "area_id": 16591,
+      "name_en": "Riverglades"
+    },
+    "eastern-kingdoms/searing-gorge": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "searing-gorge",
+      "area_id": 51,
+      "name_en": "searing-gorge"
+    },
+    "eastern-kingdoms/shadowfang-keep": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "shadowfang-keep",
+      "area_id": 236,
+      "name_en": "shadowfang-keep"
+    },
+    "eastern-kingdoms/silverpine-forest": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "silverpine-forest",
+      "area_id": 130,
+      "name_en": "Silverpine Forest"
+    },
+    "eastern-kingdoms/stonewrought-dam": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "stonewrought-dam",
+      "area_id": 146,
+      "name_en": "Stonewrought Dam"
+    },
+    "eastern-kingdoms/stormwind-city": {
+      "status": "partial",
+      "continent": "eastern-kingdoms",
+      "slug": "stormwind-city",
+      "area_id": 1519,
+      "name_en": "Stormwind City",
+      "name_pt": "Stormwind City",
+      "list_truncated": false,
+      "quest_ids": [
+        434,
+        394,
+        395,
+        396,
+        373,
+        389,
+        392,
+        393,
+        350,
+        2745,
+        2746,
+        98190,
+        98191,
+        97234,
+        97237,
+        97220,
+        97222,
+        335,
+        336,
+        1363,
+        1364,
+        1448,
+        1449,
+        7781,
+        7782,
+        7495,
+        7496,
+        3765,
+        399,
+        95065,
+        353,
+        579,
+        98219,
+        332,
+        333,
+        7791,
+        397,
+        334,
+        1301,
+        7794,
+        1015,
+        3787,
+        690,
+        1477,
+        212,
+        5066,
+        7793,
+        543,
+        5048,
+        137,
+        7497,
+        7795,
+        3789,
+        7796
+      ],
+      "warcraftdb_ids": [
+        332,
+        333,
+        334,
+        343,
+        344,
+        353,
+        373,
+        389,
+        399,
+        579,
+        1097,
+        3765,
+        93963,
+        94947,
+        95065,
+        97222
+      ],
+      "foreverdb_classic_note": true,
+      "constant": "StormwindCity",
+      "chains": [],
+      "placed_into": [
+        "eastern-kingdoms/burning-steppes",
+        "eastern-kingdoms/duskwood",
+        "eastern-kingdoms/elwynn-forest",
+        "eastern-kingdoms/hillsbrad-foothills",
+        "eastern-kingdoms/redridge-mountains",
+        "eastern-kingdoms/western-plaguelands",
+        "eastern-kingdoms/wetlands",
+        "kalimdor/darkshore",
+        "kalimdor/dustwallow-marsh",
+        "new/16593"
+      ],
+      "affected_zones": [
+        "eastern-kingdoms/alterac-mountains",
+        "new/16593"
+      ]
+    },
+    "eastern-kingdoms/stranglethorn-vale": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "stranglethorn-vale",
+      "area_id": 33,
+      "name_en": "stranglethorn-vale"
+    },
+    "eastern-kingdoms/swamp-of-sorrows": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "swamp-of-sorrows",
+      "area_id": 8,
+      "name_en": "swamp-of-sorrows"
+    },
+    "eastern-kingdoms/the-hinterlands": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "the-hinterlands",
+      "area_id": 47,
+      "name_en": "the-hinterlands"
+    },
+    "eastern-kingdoms/thoradins-wall": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "thoradins-wall",
+      "area_id": 293,
+      "name_en": "Thoradin's Wall"
+    },
+    "eastern-kingdoms/tirisfal-glades": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "tirisfal-glades",
+      "area_id": 85,
+      "name_en": "Tirisfal Glades"
+    },
+    "eastern-kingdoms/undercity": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "undercity",
+      "area_id": 1497,
+      "name_en": "Undercity"
+    },
+    "eastern-kingdoms/western-plaguelands": {
+      "status": "done",
+      "continent": "eastern-kingdoms",
+      "slug": "western-plaguelands",
+      "area_id": 28,
+      "name_en": "western-plaguelands",
+      "name_pt": "western-plaguelands",
+      "constant": "WesternPlaguelands",
+      "locale_key": "WESTERN_PLAGUELANDS",
+      "lua_file": "Zones/WesternPlaguelands.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCity6182",
+          "locale_key": "StormwindCity_WesternPlaguelands_6182",
+          "id": 160901,
+          "quests": [
+            6182,
+            6183,
+            6186
+          ],
+          "range": [
+            60,
+            60
+          ],
+          "required_level": 56,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "The First and the Last",
+          "name_pt": "O primeiro e último",
+          "race_id": null
+        }
+      ],
+      "category_id": 16007
+    },
+    "eastern-kingdoms/westfall": {
+      "status": "pending",
+      "continent": "eastern-kingdoms",
+      "slug": "westfall",
+      "area_id": 40,
+      "name_en": "Westfall",
+      "name_pt": "Westfall"
+    },
+    "eastern-kingdoms/wetlands": {
+      "status": "done",
+      "continent": "eastern-kingdoms",
+      "slug": "wetlands",
+      "area_id": 11,
+      "name_en": "Wetlands",
+      "name_pt": "Wetlands",
+      "constant": "Wetlands",
+      "locale_key": "WETLANDS",
+      "lua_file": "Zones/Wetlands.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCity1250",
+          "locale_key": "StormwindCity_Wetlands_1250",
+          "id": 161001,
+          "quests": [
+            1250,
+            1264,
+            1265,
+            1266
+          ],
+          "range": [
+            33,
+            36
+          ],
+          "required_level": 28,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "The Missing Diplomat",
+          "name_pt": "O diplomata desaparecido",
+          "race_id": null
+        }
+      ],
+      "category_id": 16008
+    },
+    "kalimdor/abyssal-sands": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "abyssal-sands",
+      "area_id": 1939,
+      "name_en": "abyssal-sands"
+    },
+    "kalimdor/ashenvale": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "ashenvale",
+      "area_id": 331,
+      "name_en": "Ashenvale"
+    },
+    "kalimdor/azshara": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "azshara",
+      "area_id": 16,
+      "name_en": "azshara"
+    },
+    "kalimdor/blackmaw-hold": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "blackmaw-hold",
+      "area_id": 1216,
+      "name_en": "blackmaw-hold"
+    },
+    "kalimdor/darkshore": {
+      "status": "done",
+      "continent": "kalimdor",
+      "slug": "darkshore",
+      "area_id": 148,
+      "name_en": "Darkshore",
+      "name_pt": "Darkshore",
+      "constant": "Darkshore",
+      "locale_key": "DARKSHORE",
+      "lua_file": "Zones/Darkshore.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCityOtherAlliance",
+          "locale_key": "StormwindCity_Darkshore_OtherAlliance",
+          "id": 161101,
+          "quests": [
+            97914
+          ],
+          "range": [
+            17,
+            17
+          ],
+          "required_level": 13,
+          "complete_all": true,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Other quests",
+          "name_pt": "Outras missões",
+          "race_id": null
+        }
+      ],
+      "category_id": 16009
+    },
+    "kalimdor/darnassus": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "darnassus",
+      "area_id": 1657,
+      "name_en": "Darnassus"
+    },
+    "kalimdor/desolace": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "desolace",
+      "area_id": 405,
+      "name_en": "desolace"
+    },
+    "kalimdor/durotar": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "durotar",
+      "area_id": 14,
+      "name_en": "Durotar"
+    },
+    "kalimdor/dustwallow-marsh": {
+      "status": "done",
+      "continent": "kalimdor",
+      "slug": "dustwallow-marsh",
+      "area_id": 15,
+      "name_en": "dustwallow-marsh",
+      "name_pt": "dustwallow-marsh",
+      "constant": "DustwallowMarsh",
+      "locale_key": "DUSTWALLOW_MARSH",
+      "lua_file": "Zones/DustwallowMarsh.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCityOtherAlliance",
+          "locale_key": "StormwindCity_DustwallowMarsh_OtherAlliance",
+          "id": 161201,
+          "quests": [
+            1267,
+            1324
+          ],
+          "range": [
+            38,
+            38
+          ],
+          "required_level": 28,
+          "complete_all": true,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Other quests",
+          "name_pt": "Outras missões",
+          "race_id": null
+        }
+      ],
+      "category_id": 16010
+    },
+    "kalimdor/felwood": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "felwood",
+      "area_id": 361,
+      "name_en": "felwood"
+    },
+    "kalimdor/feralas": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "feralas",
+      "area_id": 357,
+      "name_en": "feralas"
+    },
+    "kalimdor/field-of-giants": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "field-of-giants",
+      "area_id": 390,
+      "name_en": "Field of Giants"
+    },
+    "kalimdor/moonglade": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "moonglade",
+      "area_id": 493,
+      "name_en": "moonglade"
+    },
+    "kalimdor/mulgore": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "mulgore",
+      "area_id": 215,
+      "name_en": "Mulgore"
+    },
+    "kalimdor/orgrimmar": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "orgrimmar",
+      "area_id": 1637,
+      "name_en": "Orgrimmar"
+    },
+    "kalimdor/ruttheran-village": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "ruttheran-village",
+      "area_id": 702,
+      "name_en": "ruttheran-village"
+    },
+    "kalimdor/silithus": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "silithus",
+      "area_id": 1377,
+      "name_en": "silithus"
+    },
+    "kalimdor/stonetalon-mountains": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "stonetalon-mountains",
+      "area_id": 406,
+      "name_en": "Stonetalon Mountains"
+    },
+    "kalimdor/tanaris": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "tanaris",
+      "area_id": 440,
+      "name_en": "tanaris"
+    },
+    "kalimdor/teldrassil": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "teldrassil",
+      "area_id": 141,
+      "name_en": "Teldrassil"
+    },
+    "kalimdor/the-barrens": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "the-barrens",
+      "area_id": 17,
+      "name_en": "The Barrens"
+    },
+    "kalimdor/thousand-needles": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "thousand-needles",
+      "area_id": 400,
+      "name_en": "thousand-needles"
+    },
+    "kalimdor/thunder-bluff": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "thunder-bluff",
+      "area_id": 1638,
+      "name_en": "Thunder Bluff"
+    },
+    "kalimdor/ungoro-crater": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "ungoro-crater",
+      "area_id": 490,
+      "name_en": "ungoro-crater"
+    },
+    "kalimdor/winterspring": {
+      "status": "pending",
+      "continent": "kalimdor",
+      "slug": "winterspring",
+      "area_id": 618,
+      "name_en": "winterspring"
+    },
+    "battlegrounds/alterac-valley": {
+      "status": "pending",
+      "continent": "battlegrounds",
+      "slug": "alterac-valley",
+      "area_id": 2597,
+      "name_en": "alterac-valley"
+    },
+    "battlegrounds/arathi-basin": {
+      "status": "pending",
+      "continent": "battlegrounds",
+      "slug": "arathi-basin",
+      "area_id": 3358,
+      "name_en": "arathi-basin"
+    },
+    "battlegrounds/reuse-old-scarlet-monastery": {
+      "status": "pending",
+      "continent": "battlegrounds",
+      "slug": "reuse-old-scarlet-monastery",
+      "area_id": -25,
+      "name_en": "reuse-old-scarlet-monastery"
+    },
+    "battlegrounds/warsong-gulch": {
+      "status": "pending",
+      "continent": "battlegrounds",
+      "slug": "warsong-gulch",
+      "area_id": 3277,
+      "name_en": "warsong-gulch"
+    },
+    "classes/druid": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "druid",
+      "area_id": -263,
+      "name_en": "druid"
+    },
+    "classes/hunter": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "hunter",
+      "area_id": -261,
+      "name_en": "hunter"
+    },
+    "classes/mage": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "mage",
+      "area_id": -161,
+      "name_en": "mage"
+    },
+    "classes/paladin": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "paladin",
+      "area_id": -141,
+      "name_en": "paladin"
+    },
+    "classes/priest": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "priest",
+      "area_id": -262,
+      "name_en": "priest"
+    },
+    "classes/rogue": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "rogue",
+      "area_id": -162,
+      "name_en": "rogue"
+    },
+    "classes/shaman": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "shaman",
+      "area_id": -82,
+      "name_en": "shaman"
+    },
+    "classes/warlock": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "warlock",
+      "area_id": -61,
+      "name_en": "warlock"
+    },
+    "classes/warrior": {
+      "status": "pending",
+      "continent": "classes",
+      "slug": "warrior",
+      "area_id": -81,
+      "name_en": "warrior"
+    },
+    "dungeons/blackfathom-deeps": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "blackfathom-deeps",
+      "area_id": 719,
+      "name_en": "blackfathom-deeps"
+    },
+    "dungeons/blackrock-depths": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "blackrock-depths",
+      "area_id": 1584,
+      "name_en": "blackrock-depths"
+    },
+    "dungeons/blackrock-spire": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "blackrock-spire",
+      "area_id": 1583,
+      "name_en": "blackrock-spire"
+    },
+    "dungeons/dire-maul": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "dire-maul",
+      "area_id": 2557,
+      "name_en": "dire-maul"
+    },
+    "dungeons/gnomeregan": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "gnomeregan",
+      "area_id": 721,
+      "name_en": "gnomeregan"
+    },
+    "dungeons/maraudon": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "maraudon",
+      "area_id": 2100,
+      "name_en": "maraudon"
+    },
+    "dungeons/ragefire-chasm": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "ragefire-chasm",
+      "area_id": 2437,
+      "name_en": "ragefire-chasm"
+    },
+    "dungeons/razorfen-downs": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "razorfen-downs",
+      "area_id": 722,
+      "name_en": "razorfen-downs"
+    },
+    "dungeons/razorfen-kraul": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "razorfen-kraul",
+      "area_id": 491,
+      "name_en": "razorfen-kraul"
+    },
+    "dungeons/ruins-of-lordaeron": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "ruins-of-lordaeron",
+      "area_id": 16611,
+      "name_en": "ruins-of-lordaeron"
+    },
+    "dungeons/scarlet-monastery": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "scarlet-monastery",
+      "area_id": 796,
+      "name_en": "scarlet-monastery"
+    },
+    "dungeons/scholomance": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "scholomance",
+      "area_id": 2057,
+      "name_en": "scholomance"
+    },
+    "dungeons/shadowfang-keep": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "shadowfang-keep",
+      "area_id": 209,
+      "name_en": "shadowfang-keep"
+    },
+    "dungeons/stratholme": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "stratholme",
+      "area_id": 2017,
+      "name_en": "stratholme"
+    },
+    "dungeons/the-deadmines": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "the-deadmines",
+      "area_id": 1581,
+      "name_en": "the-deadmines"
+    },
+    "dungeons/the-hall-of-thanes": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "the-hall-of-thanes",
+      "area_id": 16919,
+      "name_en": "the-hall-of-thanes"
+    },
+    "dungeons/the-stockade": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "the-stockade",
+      "area_id": 717,
+      "name_en": "the-stockade"
+    },
+    "dungeons/the-temple-of-atalhakkar": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "the-temple-of-atalhakkar",
+      "area_id": 1477,
+      "name_en": "the-temple-of-atalhakkar"
+    },
+    "dungeons/uldaman": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "uldaman",
+      "area_id": 1337,
+      "name_en": "uldaman"
+    },
+    "dungeons/wailing-caverns": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "wailing-caverns",
+      "area_id": 718,
+      "name_en": "wailing-caverns"
+    },
+    "dungeons/zulfarrak": {
+      "status": "pending",
+      "continent": "dungeons",
+      "slug": "zulfarrak",
+      "area_id": 1176,
+      "name_en": "zulfarrak"
+    },
+    "professions/alchemy": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "alchemy",
+      "area_id": -181,
+      "name_en": "alchemy"
+    },
+    "professions/blacksmithing": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "blacksmithing",
+      "area_id": -121,
+      "name_en": "blacksmithing"
+    },
+    "professions/cooking": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "cooking",
+      "area_id": -304,
+      "name_en": "cooking"
+    },
+    "professions/engineering": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "engineering",
+      "area_id": -201,
+      "name_en": "engineering"
+    },
+    "professions/first-aid": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "first-aid",
+      "area_id": -324,
+      "name_en": "first-aid"
+    },
+    "professions/fishing": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "fishing",
+      "area_id": -101,
+      "name_en": "fishing"
+    },
+    "professions/herbalism": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "herbalism",
+      "area_id": -24,
+      "name_en": "herbalism"
+    },
+    "professions/leatherworking": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "leatherworking",
+      "area_id": -182,
+      "name_en": "leatherworking"
+    },
+    "professions/tailoring": {
+      "status": "pending",
+      "continent": "professions",
+      "slug": "tailoring",
+      "area_id": -264,
+      "name_en": "tailoring"
+    },
+    "raids/ahnqiraj": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "ahnqiraj",
+      "area_id": 3428,
+      "name_en": "ahnqiraj"
+    },
+    "raids/blackwing-lair": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "blackwing-lair",
+      "area_id": 2677,
+      "name_en": "blackwing-lair"
+    },
+    "raids/molten-core": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "molten-core",
+      "area_id": 2717,
+      "name_en": "molten-core"
+    },
+    "raids/naxxramas": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "naxxramas",
+      "area_id": 3456,
+      "name_en": "naxxramas"
+    },
+    "raids/onyxias-lair": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "onyxias-lair",
+      "area_id": 2159,
+      "name_en": "onyxias-lair"
+    },
+    "raids/ruins-of-ahnqiraj": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "ruins-of-ahnqiraj",
+      "area_id": 3429,
+      "name_en": "ruins-of-ahnqiraj"
+    },
+    "raids/zulgurub": {
+      "status": "pending",
+      "continent": "raids",
+      "slug": "zulgurub",
+      "area_id": 1977,
+      "name_en": "zulgurub"
+    },
+    "world-events/childrens-week": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "childrens-week",
+      "area_id": -1002,
+      "name_en": "childrens-week"
+    },
+    "world-events/darkmoon-faire": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "darkmoon-faire",
+      "area_id": -364,
+      "name_en": "darkmoon-faire"
+    },
+    "world-events/hallows-end": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "hallows-end",
+      "area_id": -1003,
+      "name_en": "hallows-end"
+    },
+    "world-events/love-is-in-the-air": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "love-is-in-the-air",
+      "area_id": -1004,
+      "name_en": "love-is-in-the-air"
+    },
+    "world-events/lunar-festival": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "lunar-festival",
+      "area_id": -366,
+      "name_en": "lunar-festival"
+    },
+    "world-events/midsummer": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "midsummer",
+      "area_id": -369,
+      "name_en": "midsummer"
+    },
+    "world-events/winter-veil": {
+      "status": "pending",
+      "continent": "world-events",
+      "slug": "winter-veil",
+      "area_id": -1001,
+      "name_en": "winter-veil"
+    },
+    "miscellaneous/epic": {
+      "status": "pending",
+      "continent": "miscellaneous",
+      "slug": "epic",
+      "area_id": -1,
+      "name_en": "epic"
+    },
+    "miscellaneous/legendary": {
+      "status": "pending",
+      "continent": "miscellaneous",
+      "slug": "legendary",
+      "area_id": -344,
+      "name_en": "legendary"
+    },
+    "new/16593": {
+      "continent": "new",
+      "slug": "16593",
+      "area_id": 16593,
+      "name_pt": "Ilha de Zefras",
+      "name_en": "Ilha de Zefras",
+      "new_region": true,
+      "status": "partial",
+      "constant": "Zone16593",
+      "locale_key": "ZONE_16593",
+      "lua_file": "Zones/Zone16593.lua",
+      "chains": [
+        {
+          "constant": "ClassStormwindCity93835",
+          "locale_key": "StormwindCity_Zone16593_93835",
+          "id": 160301,
+          "quests": [
+            93835,
+            94369,
+            93089,
+            94946,
+            94947,
+            93963
+          ],
+          "range": [
+            12,
+            13
+          ],
+          "required_level": 7,
+          "complete_all": false,
+          "faction": "Alliance",
+          "class_id": null,
+          "from_class": "eastern-kingdoms/stormwind-city",
+          "name_en": "Confront Lorthuna",
+          "name_pt": "Confront Lorthuna",
+          "race_id": null
+        }
+      ],
+      "category_id": 16011
+    }
+  },
+  "quests": {
+    "91733": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Downstream",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91733
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248265
+      }
+    },
+    "91775": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Book Return",
+      "name_pt": "Devolução de livros",
+      "level": 6,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "91777": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Rare Books",
+      "name_pt": "Livros raros",
+      "level": 7,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "99130": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "An Enticing Offer",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        99130
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 241
+      }
+    },
+    "91741": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Nibbled-On Book",
+      "name_pt": "Livro mordiscado",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "source": null
+    },
+    "91736": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Applejack Still",
+      "name_pt": null,
+      "level": 0,
+      "required_level": 0,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91736
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 562131
+      }
+    },
+    "91743": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Rascally Rodents",
+      "name_pt": "Fome de conhecimento",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 951
+      }
+    },
+    "91772": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Shhh! We're Hunting Kobolds",
+      "name_pt": "Silêncio! Área de caça a kobolds",
+      "level": 4,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248415
+      }
+    },
+    "91753": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "An Enchanting Lesson",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91753
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 11072
+      }
+    },
+    "91740": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Croaky's Head",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91740
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "source": null
+    },
+    "91738": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "An Apple Treat",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91738
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 955
+      }
+    },
+    "91752": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Big Picture",
+      "name_pt": "Livro com figura também é leitura",
+      "level": 3,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 247226
+      }
+    },
+    "176": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "WANTED: \\\"Hogger\\\"",
+      "name_pt": "PROCURA-SE: \\\"Hogger\\\"",
+      "level": 11,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        176
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 68
+      }
+    },
+    "91745": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Mining Consultant",
+      "name_pt": "Consultoria em mineração",
+      "level": 3,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 951
+      }
+    },
+    "91723": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Delicate Instruments",
+      "name_pt": "Instrumentos delicados",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91723
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248242
+      }
+    },
+    "91746": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Elmpaw's Head",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "source": null
+    },
+    "91732": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Good Steel",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91732
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248266
+      }
+    },
+    "91725": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Stolen Enchanting Supplies",
+      "name_pt": "Suprimentos de encantamento roubados",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91725
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248248
+      }
+    },
+    "91758": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Follow That Kobold!",
+      "name_pt": "Siga aquele kobold!",
+      "level": 4,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91741,
+        91743,
+        91745,
+        91752,
+        91758,
+        91772,
+        91775,
+        91777
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 197
+      }
+    },
+    "91724": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Delicate Instruments",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91724
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248242
+      }
+    },
+    "123": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Collector",
+      "name_pt": "O Coletor",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        123
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "support": {
+        "foreverdb": {
+          "pins": [
+            {
+              "map": 1429,
+              "x": 0.421,
+              "y": 0.659,
+              "name": "Marshal Dughan"
+            }
+          ],
+          "pickup": null
+        }
+      },
+      "source": {
+        "type": "coords",
+        "mapID": 1429,
+        "x": 0.421,
+        "y": 0.659,
+        "name": "Marshal Dughan"
+      }
+    },
+    "91751": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Rough Wolf Pelts",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        91751
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 6306
+      }
+    },
+    "99131": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Baited for Success",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        99131
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 241
+      }
+    },
+    "99127": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "A Net Disaster",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        99127
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 383
+      }
+    },
+    "87": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Goldtooth",
+      "name_pt": "Dentadouro",
+      "level": 8,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        85,
+        86,
+        84,
+        87
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 247
+      }
+    },
+    "147": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Manhunt",
+      "name_pt": "Perseguição implacável",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        147
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "92124": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Book Inventory",
+      "name_pt": "Inventário de livros",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        92124
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 951
+      }
+    },
+    "59": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Cloth and Leather Armor",
+      "name_pt": "Armadura de pano e couro",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "99128": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Slimy Menace",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        99128
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 383
+      }
+    },
+    "99143": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Bottles and Baubles",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        99143
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 1651
+      }
+    },
+    "46": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Bounty on Murlocs",
+      "name_pt": "Barbatanas de molho",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        46
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 261
+      }
+    },
+    "88": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Princess Must Die!",
+      "name_pt": "Princesa tem que morrer!",
+      "level": 9,
+      "required_level": 6,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        88
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 244
+      }
+    },
+    "95771": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "A Taste of Darkness",
+      "name_pt": null,
+      "level": 10,
+      "required_level": 6,
+      "side": 0,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        95771
+      ],
+      "series_known": true,
+      "restrictions": [],
+      "source": null
+    },
+    "99129": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "A Man About a Murloc",
+      "name_pt": null,
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        99129
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 383
+      }
+    },
+    "71": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Report to Thomas",
+      "name_pt": "Apresente-se a Tomás",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 56
+      }
+    },
+    "39": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Deliver Thomas' Report",
+      "name_pt": "O relatório de Tomás",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 261
+      }
+    },
+    "45": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Discover Rolf's Fate",
+      "name_pt": "Descubra o destino de Rodolfo",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 55
+      }
+    },
+    "37": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Find the Lost Guards",
+      "name_pt": "Encontre os guardas perdidos",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 261
+      }
+    },
+    "21": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Skirmish at Echo Ridge",
+      "name_pt": "Escaramuça na Serra do Eco",
+      "level": 5,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        15,
+        21
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 197
+      }
+    },
+    "11": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Riverpaw Gnoll Bounty",
+      "name_pt": "Caçando gnolls",
+      "level": 10,
+      "required_level": 6,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        239,
+        11
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 963
+      }
+    },
+    "109": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Report to Gryan Stoutmantle",
+      "name_pt": "Fale com Miguel Mantoforte",
+      "level": 10,
+      "required_level": 9,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        109
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 40,
+      "source": {
+        "type": "npc",
+        "id": 233
+      }
+    },
+    "18": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Brotherhood of Thieves",
+      "name_pt": "Irmandade dos Ladrões",
+      "level": 4,
+      "required_level": 2,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        18
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 823
+      }
+    },
+    "783": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "A Threat Within",
+      "name_pt": "A ameaça interna",
+      "level": 1,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        783,
+        7
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 823
+      }
+    },
+    "62": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Fargodeep Mine",
+      "name_pt": "A Mina Vailafundo",
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        62,
+        76
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "6": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Bounty on Garrick Padfoot",
+      "name_pt": "Recompensa por Garrick Patatenra",
+      "level": 5,
+      "required_level": 2,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        6
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 823
+      }
+    },
+    "61": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Shipment to Stormwind",
+      "name_pt": "Frete para Ventobravo",
+      "level": 7,
+      "required_level": 3,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        60,
+        61
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 253
+      }
+    },
+    "76": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Jasperlode Mine",
+      "name_pt": "A Mina de Jaspe",
+      "level": 10,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        62,
+        76
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "35": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Further Concerns",
+      "name_pt": "Mais preocupações",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "112": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Collecting Kelp",
+      "name_pt": "Coletando alga",
+      "level": 7,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        106,
+        111,
+        107,
+        112
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 253
+      }
+    },
+    "83": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Red Linen Goods",
+      "name_pt": "Além do linho vermelho",
+      "level": 9,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        83
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 278
+      }
+    },
+    "7": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Kobold Camp Cleanup",
+      "name_pt": "Limpeza no acampamento dos kobolds",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        783,
+        7
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 197
+      }
+    },
+    "54": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Report to Goldshire",
+      "name_pt": "Apresente-se em Vila d'Ouro",
+      "level": 5,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        54
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 197
+      }
+    },
+    "40": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "A Fishy Peril",
+      "name_pt": "Perigo anfíbio",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        40,
+        35,
+        37,
+        45,
+        71,
+        39,
+        59
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 241
+      }
+    },
+    "114": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Escape",
+      "name_pt": "A fuga",
+      "level": 7,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        114
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 253
+      }
+    },
+    "52": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Protect the Frontier",
+      "name_pt": "Proteja a fronteira",
+      "level": 10,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        52
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 261
+      }
+    },
+    "60": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Kobold Candles",
+      "name_pt": "Velas dos kobolds",
+      "level": 7,
+      "required_level": 3,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        60,
+        61
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 253
+      }
+    },
+    "85": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Lost Necklace",
+      "name_pt": "O colar perdido",
+      "level": 6,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        85,
+        86,
+        84,
+        87
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 246
+      }
+    },
+    "239": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Westbrook Garrison Needs Help!",
+      "name_pt": "Ribeira d'Oeste precisa de ajuda!",
+      "level": 10,
+      "required_level": 6,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        239,
+        11
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 240
+      }
+    },
+    "47": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Gold Dust Exchange",
+      "name_pt": "Trocando Pó de Ouro",
+      "level": 7,
+      "required_level": 4,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        47
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 241
+      }
+    },
+    "106": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Young Lovers",
+      "name_pt": "Jovens amantes",
+      "level": 6,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        106,
+        111,
+        107,
+        112
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 251
+      }
+    },
+    "3903": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Milly Osworth",
+      "name_pt": "Madel Quintana",
+      "level": 4,
+      "required_level": 2,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        3903,
+        3904,
+        3905
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 823
+      }
+    },
+    "86": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Pie for Billy",
+      "name_pt": "Juntando a fome...",
+      "level": 6,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        85,
+        86,
+        84,
+        87
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 247
+      }
+    },
+    "15": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Investigate Echo Ridge",
+      "name_pt": "Investigue a Serra do Eco",
+      "level": 3,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        15,
+        21
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 197
+      }
+    },
+    "107": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Note to William",
+      "name_pt": "Bilhete para Durval",
+      "level": 6,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        106,
+        111,
+        107,
+        112
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 248
+      }
+    },
+    "111": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Speak with Gramma",
+      "name_pt": "Fale com a vovó",
+      "level": 6,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        106,
+        111,
+        107,
+        112
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 252
+      }
+    },
+    "3905": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Grape Manifest",
+      "name_pt": "Manifesto da Uva",
+      "level": 4,
+      "required_level": 2,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        3903,
+        3904,
+        3905
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 9296
+      }
+    },
+    "33": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Wolves Across the Border",
+      "name_pt": "Só louco não come lobo",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        5261,
+        33
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 196
+      }
+    },
+    "2158": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Rest and Relaxation",
+      "name_pt": "Repouso e relaxamento",
+      "level": 5,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        2158
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 6774
+      }
+    },
+    "3904": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Milly's Harvest",
+      "name_pt": "Colheita da Madel",
+      "level": 4,
+      "required_level": 2,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        3903,
+        3904,
+        3905
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 9296
+      }
+    },
+    "5261": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Eagan Peltskinner",
+      "name_pt": "Enzo Peleteiro",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        5261,
+        33
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 823
+      }
+    },
+    "84": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Back to Billy",
+      "name_pt": "...com a vontade de comer",
+      "level": 6,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        85,
+        86,
+        84,
+        87
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 246
+      }
+    },
+    "5545": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "A Bundle of Trouble",
+      "name_pt": "Um feixe de encrenca",
+      "level": 9,
+      "required_level": 5,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        5545
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 10616
+      }
+    },
+    "16": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Give Gerard a Drink",
+      "name_pt": "Dê de beber a Geraldo",
+      "level": 1,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        16
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 255
+      }
+    },
+    "7962": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Wabbit Pelts",
+      "name_pt": "Pelagens de toelho",
+      "level": 1,
+      "required_level": 1,
+      "side": 0,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7962
+      ],
+      "series_known": true,
+      "restrictions": [],
+      "source": null
+    },
+    "5805": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Welcome!",
+      "name_pt": "Boas-vindas!",
+      "level": 1,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        5805
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "support": {
+        "foreverdb": {
+          "pins": [
+            {
+              "map": 1429,
+              "x": 0.474,
+              "y": 0.419,
+              "name": "Merissa Stilwell"
+            }
+          ],
+          "pickup": null
+        }
+      },
+      "source": {
+        "type": "coords",
+        "mapID": 1429,
+        "x": 0.474,
+        "y": 0.419,
+        "name": "Merissa Stilwell"
+      }
+    },
+    "7961": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Waskily Wabbits!",
+      "name_pt": "Waskily Wabbits!",
+      "level": 1,
+      "required_level": 1,
+      "side": 0,
+      "in_addon": true,
+      "quest_zone_id": 12,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7961
+      ],
+      "series_known": true,
+      "restrictions": [],
+      "source": null
+    },
+    "396": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "An Audience with the King",
+      "name_pt": "Uma audiência com o rei",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        434,
+        394,
+        395,
+        396
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1646
+      }
+    },
+    "373": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Unsent Letter",
+      "name_pt": "Uma carta não enviada",
+      "level": 22,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ]
+    },
+    "434": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Attack!",
+      "name_pt": "O ataque!",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        434,
+        394,
+        395,
+        396
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 7766
+      }
+    },
+    "98191": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Friend of the Family",
+      "name_pt": null,
+      "level": 25,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        279,
+        281,
+        284,
+        285,
+        286,
+        98189,
+        98190,
+        98191
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ]
+    },
+    "93963": {
+      "zone": "new/16593",
+      "name_en": "Exploring the Alliance",
+      "name_pt": "Explorando a Aliança",
+      "level": 13,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 4294967296,
+      "series": [
+        93835,
+        94369,
+        93089,
+        94946,
+        94947,
+        93963
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        },
+        {
+          "type": "race",
+          "id": "Skyborne"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1748
+      },
+      "start_areas": [
+        1519
+      ],
+      "chain_zone": "new/16593"
+    },
+    "389": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Bazil Thredd",
+      "name_pt": "Basílio Taborda",
+      "level": 22,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1646
+      }
+    },
+    "97237": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Shelf Picked",
+      "name_pt": "Direto da estante",
+      "level": 18,
+      "required_level": 13,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        97234,
+        97237
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 2504
+      }
+    },
+    "3765": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Corruption Abroad",
+      "name_pt": "A corrupção estrangeira",
+      "level": 24,
+      "required_level": 18,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        3765,
+        1275
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 4984
+      }
+    },
+    "346": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Return to Kristoff",
+      "name_pt": "De novo com Kristoff",
+      "level": 24,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        343,
+        344,
+        345,
+        347,
+        346
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 951
+      }
+    },
+    "2746": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Items of Some Consequence",
+      "name_pt": "Itens de alguma consequência",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 7766
+      }
+    },
+    "97234": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Reading Room",
+      "name_pt": "Sala de leitura",
+      "level": 18,
+      "required_level": 13,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        97234,
+        97237
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 268568
+      }
+    },
+    "347": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Rethban Ore",
+      "name_pt": "Minério Retibano",
+      "level": 24,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        343,
+        344,
+        345,
+        347,
+        346
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 44,
+      "source": {
+        "type": "npc",
+        "id": 341
+      }
+    },
+    "94947": {
+      "zone": "new/16593",
+      "name_en": "Welcome to Azeroth",
+      "name_pt": "Boas-vindas a Azeroth",
+      "level": 13,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 4294967296,
+      "series": [
+        93835,
+        94369,
+        93089,
+        94946,
+        94947,
+        93963
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        },
+        {
+          "type": "race",
+          "id": "Skyborne"
+        }
+      ],
+      "start_area": 36,
+      "source": {
+        "type": "npc",
+        "id": 259084
+      },
+      "start_areas": [
+        36
+      ],
+      "chain_zone": "new/16593"
+    },
+    "394": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Head of the Beast",
+      "name_pt": "A cabeça da fera",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        434,
+        394,
+        395,
+        396
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 482
+      }
+    },
+    "399": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Humble Beginnings",
+      "name_pt": "Origens humildes",
+      "level": 15,
+      "required_level": 10,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        399
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1646
+      }
+    },
+    "97222": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Gatehouse Goods",
+      "name_pt": null,
+      "level": 15,
+      "required_level": 9,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        97246,
+        97220,
+        97222
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 483
+      }
+    },
+    "392": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Curious Visitor",
+      "name_pt": "Visitante suspeito",
+      "level": 29,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1719
+      }
+    },
+    "98190": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Friend of the Family",
+      "name_pt": null,
+      "level": 25,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        279,
+        281,
+        284,
+        285,
+        286,
+        98189,
+        98190,
+        98191
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ]
+    },
+    "395": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Brotherhood's End",
+      "name_pt": "Fim da irmandade",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        434,
+        394,
+        395,
+        396
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 332
+      }
+    },
+    "345": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Ink Supplies",
+      "name_pt": "Estoque de tinta",
+      "level": 24,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        343,
+        344,
+        345,
+        347,
+        346
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 951
+      }
+    },
+    "343": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Speaking of Fortitude",
+      "name_pt": "Falando sobre fortitude",
+      "level": 24,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        343,
+        344,
+        345,
+        347,
+        346
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1444
+      }
+    },
+    "95065": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Fishin' Time",
+      "name_pt": "Hora da pesca",
+      "level": 12,
+      "required_level": 7,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        95065
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 267118
+      }
+    },
+    "97914": {
+      "zone": "kalimdor/darkshore",
+      "name_en": "Expanding Horizons",
+      "name_pt": "Novos horizontes",
+      "level": 17,
+      "required_level": 13,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        97914,
+        97926
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 148,
+      "source": {
+        "type": "npc",
+        "id": 3649
+      }
+    },
+    "2745": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Infiltrating the Castle",
+      "name_pt": "Infiltrando-se no castelo",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 482
+      }
+    },
+    "344": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "Brother Paxton",
+      "name_pt": "Irmão Paxeco",
+      "level": 24,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        343,
+        344,
+        345,
+        347,
+        346
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1440
+      }
+    },
+    "393": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Shadow of the Past",
+      "name_pt": "Sombra do passado",
+      "level": 29,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1646
+      }
+    },
+    "350": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Look to an Old Friend",
+      "name_pt": "Procurando um velho amigo",
+      "level": 31,
+      "required_level": 16,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        373,
+        389,
+        391,
+        392,
+        393,
+        350,
+        2745,
+        2746
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 332
+      }
+    },
+    "97220": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Philmor's Favor",
+      "name_pt": null,
+      "level": 15,
+      "required_level": 9,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        97246,
+        97242,
+        97222
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 268511
+      }
+    },
+    "353": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Stormpike's Delivery",
+      "name_pt": "Entrega para Lançatroz",
+      "level": 15,
+      "required_level": 9,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        353
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1416
+      }
+    },
+    "1097": {
+      "zone": "eastern-kingdoms/redridge-mountains",
+      "name_en": "Elmore's Task",
+      "name_pt": "Tarefa de Elmore",
+      "level": 15,
+      "required_level": 9,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1097
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 44,
+      "source": {
+        "type": "npc",
+        "id": 415
+      }
+    },
+    "538": {
+      "zone": "eastern-kingdoms/hillsbrad-foothills",
+      "name_en": "Southshore",
+      "name_pt": "Costa Sul",
+      "level": 38,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "fetch_error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>",
+      "support": {
+        "foreverdb": {
+          "pins": [
+            {
+              "map": 1453,
+              "x": 0.771,
+              "y": 0.302,
+              "name": "Milton Sheaf"
+            },
+            {
+              "map": 1424,
+              "x": 0.506,
+              "y": 0.571,
+              "name": "Loremaster Dibbs"
+            }
+          ],
+          "pickup": null
+        }
+      },
+      "source": {
+        "type": "npc",
+        "id": 1440
+      },
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        337,
+        538,
+        540,
+        542
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519
+    },
+    "579": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Stormwind Library",
+      "name_pt": "A Biblioteca de Ventobravo",
+      "level": 1,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        579
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 2504
+      }
+    },
+    "98219": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Shamed Lieutenant",
+      "name_pt": null,
+      "level": 30,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        98219
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ]
+    },
+    "542": {
+      "zone": "eastern-kingdoms/hillsbrad-foothills",
+      "name_en": "Return to Milton",
+      "name_pt": "Fale novamente com Milton",
+      "level": 38,
+      "required_level": 20,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        337,
+        538,
+        540,
+        542
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 267,
+      "source": {
+        "type": "npc",
+        "id": 2277
+      }
+    },
+    "332": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Wine Shop Advert",
+      "name_pt": "A propaganda é a alma do negócio",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        332
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1432
+      }
+    },
+    "1250": {
+      "zone": "eastern-kingdoms/wetlands",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 33,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1250,
+        1264,
+        1265,
+        1266
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 11,
+      "source": {
+        "type": "npc",
+        "id": 4962
+      }
+    },
+    "333": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Harlan Needs a Resupply",
+      "name_pt": "A lista de material do Fialho",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        333
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1427
+      }
+    },
+    "7791": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Donation of Wool",
+      "name_pt": "Doação de lã",
+      "level": 60,
+      "required_level": 12,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7791
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 14722
+      }
+    },
+    "1241": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 28,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 4960
+      }
+    },
+    "1246": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 31,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 482
+      }
+    },
+    "335": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Noble Brew",
+      "name_pt": "Uma bebida para poucos",
+      "level": 30,
+      "required_level": 25,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        335,
+        336
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1435
+      }
+    },
+    "1242": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 28,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 4959
+      }
+    },
+    "397": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "You Have Served Us Well",
+      "name_pt": "Atendimento nota 10",
+      "level": 30,
+      "required_level": 25,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 256,
+      "reqrace": 65,
+      "series": [
+        397
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        },
+        {
+          "type": "class",
+          "id": 9
+        },
+        {
+          "type": "race",
+          "ids": [
+            "Human",
+            "Gnome"
+          ]
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1435
+      }
+    },
+    "1244": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 30,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 10,
+      "source": {
+        "type": "npc",
+        "id": 840
+      }
+    },
+    "1248": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 33,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 482
+      }
+    },
+    "6402": {
+      "zone": "eastern-kingdoms/burning-steppes",
+      "name_en": "Stormwind Rendezvous",
+      "name_pt": "Encontro marcado em Ventobravo",
+      "level": 60,
+      "required_level": 50,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        4322,
+        6402
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 46,
+      "source": {
+        "type": "npc",
+        "id": 9560
+      }
+    },
+    "6403": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Great Masquerade",
+      "name_pt": "O grande baile de máscaras",
+      "level": 60,
+      "required_level": 50,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        6403,
+        6501,
+        6502
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 12,
+      "source": {
+        "type": "npc",
+        "id": 12580
+      }
+    },
+    "1245": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 30,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 10,
+      "source": {
+        "type": "npc",
+        "id": 840
+      }
+    },
+    "334": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Package for Thurman",
+      "name_pt": "Entrega para Antônio Armarinho",
+      "level": 2,
+      "required_level": 1,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        334
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1428
+      }
+    },
+    "1266": {
+      "zone": "eastern-kingdoms/wetlands",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 36,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1250,
+        1264,
+        1265,
+        1266
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 15,
+      "source": {
+        "type": "npc",
+        "id": 4967
+      }
+    },
+    "1249": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 33,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 11,
+      "source": {
+        "type": "npc",
+        "id": 4963
+      }
+    },
+    "6501": {
+      "zone": "eastern-kingdoms/elwynn-forest",
+      "name_en": "The Dragon's Eye",
+      "name_pt": "O Olho do Dragão",
+      "level": 60,
+      "required_level": 50,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        6403,
+        6501,
+        6502
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1748
+      }
+    },
+    "1267": {
+      "zone": "kalimdor/dustwallow-marsh",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 38,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1267
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 15,
+      "source": {
+        "type": "npc",
+        "id": 4968
+      }
+    },
+    "1243": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 28,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 482
+      }
+    },
+    "1247": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 31,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 4961
+      }
+    },
+    "1364": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Mazen's Behest",
+      "name_pt": "A mando de Mazen",
+      "level": 41,
+      "required_level": 37,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1363,
+        1364
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 5386
+      }
+    },
+    "336": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Noble Brew",
+      "name_pt": "Uma bebida para poucos",
+      "level": 30,
+      "required_level": 25,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 256,
+      "reqrace": 65,
+      "series": [
+        335,
+        336
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        },
+        {
+          "type": "class",
+          "id": 9
+        },
+        {
+          "type": "race",
+          "ids": [
+            "Human",
+            "Gnome"
+          ]
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1435
+      }
+    },
+    "1447": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 31,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 4961
+      }
+    },
+    "1264": {
+      "zone": "eastern-kingdoms/wetlands",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 33,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1250,
+        1264,
+        1265,
+        1266
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 11,
+      "source": {
+        "type": "npc",
+        "id": 4963
+      }
+    },
+    "1274": {
+      "zone": "eastern-kingdoms/duskwood",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 28,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246,
+        1447,
+        1247,
+        1248,
+        1249
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 4982
+      }
+    },
+    "1449": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "To The Hinterlands",
+      "name_pt": "Rumo às Terras Agrestes",
+      "level": 43,
+      "required_level": 38,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1448,
+        1449,
+        1450,
+        1451,
+        1452
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 5384
+      }
+    },
+    "1265": {
+      "zone": "eastern-kingdoms/wetlands",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 35,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1250,
+        1264,
+        1265,
+        1266
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 15,
+      "source": {
+        "type": "npc",
+        "id": 4964
+      }
+    },
+    "1448": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "In Search of The Temple",
+      "name_pt": "Em busca do templo",
+      "level": 43,
+      "required_level": 38,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1448,
+        1449,
+        1450,
+        1451,
+        1452
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 5384
+      }
+    },
+    "1301": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "James Hyal",
+      "name_pt": "James Hyal",
+      "level": 35,
+      "required_level": 30,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1301,
+        1302
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 5081
+      }
+    },
+    "1324": {
+      "zone": "kalimdor/dustwallow-marsh",
+      "name_en": "The Missing Diplomat",
+      "name_pt": "O diplomata desaparecido",
+      "level": 38,
+      "required_level": 28,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1324
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 15,
+      "source": {
+        "type": "npc",
+        "id": 4966
+      }
+    },
+    "7794": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Donation of Mageweave",
+      "name_pt": "Doação de magitrama",
+      "level": 60,
+      "required_level": 40,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7794
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 14722
+      }
+    },
+    "1015": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The New Frontier",
+      "name_pt": "Uma nova fronteira",
+      "level": 55,
+      "required_level": 54,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1019,
+        1000,
+        1123,
+        1124,
+        1125,
+        1126,
+        6844,
+        6845
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 2198
+      }
+    },
+    "1363": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Mazen's Behest",
+      "name_pt": "A mando de Mazen",
+      "level": 41,
+      "required_level": 37,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1363,
+        1364
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 338
+      }
+    },
+    "7781": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Lord of Blackrock",
+      "name_pt": "O Senhor dos Rocha Negra",
+      "level": 60,
+      "required_level": 60,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7781,
+        7782
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "support": {
+        "foreverdb": {
+          "pins": [
+            {
+              "map": 1453,
+              "x": 0.802,
+              "y": 0.383,
+              "name": "Highlord Bolvar Fordragon"
+            }
+          ],
+          "pickup": null
+        }
+      },
+      "source": {
+        "type": "coords",
+        "mapID": 1453,
+        "x": 0.802,
+        "y": 0.383,
+        "name": "Highlord Bolvar Fordragon"
+      }
+    },
+    "3787": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Jonespyre's Request",
+      "name_pt": "O pedido de Jonespyre",
+      "level": 50,
+      "required_level": 47,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        3788,
+        3791
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 5566
+      }
+    },
+    "690": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Malin's Request",
+      "name_pt": "O pedido de Malin",
+      "level": 32,
+      "required_level": 30,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        690
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 2708
+      }
+    },
+    "7782": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Lord of Blackrock",
+      "name_pt": "O Senhor dos Rocha Negra",
+      "level": 60,
+      "required_level": 60,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7781,
+        7782
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1748
+      }
+    },
+    "7495": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Victory for the Alliance",
+      "name_pt": "Vitória pela Aliança",
+      "level": 60,
+      "required_level": 60,
+      "side": 2,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7495,
+        7496
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Horde"
+        }
+      ]
+    },
+    "1477": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Vital Supplies",
+      "name_pt": "Suprimentos Vitais",
+      "level": 45,
+      "required_level": 40,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        1477,
+        1395
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 5694
+      }
+    },
+    "6186": {
+      "zone": "eastern-kingdoms/western-plaguelands",
+      "name_en": "The Blightcaller Cometh",
+      "name_pt": "A ascensão do Arauto da Praga",
+      "level": 60,
+      "required_level": 56,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        6182,
+        6183,
+        6184,
+        6185,
+        6186,
+        6187
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 28,
+      "source": {
+        "type": "npc",
+        "id": 12425
+      }
+    },
+    "212": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Meal Served Cold",
+      "name_pt": "A festança é um prato que se come frio",
+      "level": 40,
+      "required_level": 35,
+      "side": 3,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        212
+      ],
+      "series_known": true,
+      "restrictions": [],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1141
+      }
+    },
+    "7496": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Celebrating Good Times",
+      "name_pt": "Celebrar os bons tempos",
+      "level": 60,
+      "required_level": 60,
+      "side": 2,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7495,
+        7496
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Horde"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1748
+      }
+    },
+    "5066": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Call to Arms: The Plaguelands!",
+      "name_pt": "Um chamado às armas: as Terras Pestilentas!",
+      "level": 50,
+      "required_level": 50,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        5090,
+        5092
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 2198
+      }
+    },
+    "7793": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Donation of Silk",
+      "name_pt": "Doação de seda",
+      "level": 60,
+      "required_level": 26,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7793
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 14722
+      }
+    },
+    "543": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Perenolde Tiara",
+      "name_pt": "A Tiara de Perenolde",
+      "level": 40,
+      "required_level": 30,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        543
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 2285
+      }
+    },
+    "5048": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Good Natured Emma",
+      "name_pt": "Bondosa Bia",
+      "level": 52,
+      "required_level": 50,
+      "side": 3,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        5022,
+        5049,
+        5050,
+        5051
+      ],
+      "series_known": true,
+      "restrictions": [],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 10782
+      }
+    },
+    "137": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "<NYI> <TXT> Stormwind Commendation",
+      "name_pt": "<NYI> <TXT> Stormwind Commendation",
+      "level": 8,
+      "required_level": 5,
+      "side": 0,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        137
+      ],
+      "series_known": true,
+      "restrictions": []
+    },
+    "7497": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "The Journey Has Just Begun",
+      "name_pt": "A jornada está apenas começando",
+      "level": 60,
+      "required_level": 60,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7497
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 14394
+      }
+    },
+    "7795": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "A Donation of Runecloth",
+      "name_pt": "Doação de runatrama",
+      "level": 60,
+      "required_level": 50,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7795
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 14722
+      }
+    },
+    "6182": {
+      "zone": "eastern-kingdoms/western-plaguelands",
+      "name_en": "The First and the Last",
+      "name_pt": "O primeiro e último",
+      "level": 60,
+      "required_level": 56,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        6182,
+        6183,
+        6184,
+        6185,
+        6186,
+        6187
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 1748
+      }
+    },
+    "3789": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Assisting Arch Druid Staghelm",
+      "name_pt": "Auxílio ao Arquidruida Guenelmo",
+      "level": 50,
+      "required_level": 47,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        3763,
+        3764
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 6740
+      }
+    },
+    "7796": {
+      "zone": "eastern-kingdoms/stormwind-city",
+      "name_en": "Additional Runecloth",
+      "name_pt": "Runatrama nunca é demais",
+      "level": 60,
+      "required_level": 50,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        7796
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 14722
+      }
+    },
+    "6183": {
+      "zone": "eastern-kingdoms/western-plaguelands",
+      "name_en": "Honor the Dead",
+      "name_pt": "Em honra aos mortos",
+      "level": 60,
+      "required_level": 56,
+      "side": 1,
+      "in_addon": true,
+      "quest_zone_id": 1519,
+      "reqclass": 0,
+      "reqrace": 0,
+      "series": [
+        6182,
+        6183,
+        6184,
+        6185,
+        6186,
+        6187
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_area": 1519,
+      "source": {
+        "type": "npc",
+        "id": 332
+      }
+    },
+    "93835": {
+      "in_addon": true,
+      "name_en": "Confront Lorthuna",
+      "quest_zone_id": 16593,
+      "level": 12,
+      "required_level": 7,
+      "reqclass": 0,
+      "reqrace": 0,
+      "side": 1,
+      "series": [
+        93835,
+        94369,
+        93089,
+        94946,
+        94947,
+        93963
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_areas": [
+        16593
+      ],
+      "start_area": 16593,
+      "source": {
+        "type": "npc",
+        "id": 253590
+      },
+      "zone": "new/16593",
+      "chain_zone": "new/16593"
+    },
+    "94369": {
+      "in_addon": true,
+      "name_en": "The Fate of Zephras",
+      "quest_zone_id": 16593,
+      "level": 12,
+      "required_level": 7,
+      "reqclass": 0,
+      "reqrace": 0,
+      "side": 1,
+      "series": [
+        93835,
+        94369,
+        93089,
+        94946,
+        94947,
+        93963
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_areas": [
+        16593
+      ],
+      "start_area": 16593,
+      "source": {
+        "type": "npc",
+        "id": 252475
+      },
+      "zone": "new/16593",
+      "chain_zone": "new/16593"
+    },
+    "93089": {
+      "in_addon": true,
+      "name_en": "What Comes Next",
+      "quest_zone_id": 16593,
+      "level": 13,
+      "required_level": 7,
+      "reqclass": 0,
+      "reqrace": 0,
+      "side": 1,
+      "series": [
+        93835,
+        94369,
+        93089,
+        94946,
+        94947,
+        93963
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_areas": [
+        16593
+      ],
+      "start_area": 16593,
+      "source": {
+        "type": "npc",
+        "id": 252476
+      },
+      "zone": "new/16593",
+      "chain_zone": "new/16593"
+    },
+    "94946": {
+      "in_addon": true,
+      "name_en": "The Magical City of Dalaran",
+      "quest_zone_id": 16593,
+      "level": 13,
+      "required_level": 7,
+      "reqclass": 0,
+      "reqrace": 0,
+      "side": 1,
+      "series": [
+        93835,
+        94369,
+        93089,
+        94946,
+        94947,
+        93963
+      ],
+      "series_known": true,
+      "restrictions": [
+        {
+          "type": "faction",
+          "id": "Alliance"
+        }
+      ],
+      "start_areas": [
+        16593
+      ],
+      "start_area": 16593,
+      "source": {
+        "type": "npc",
+        "id": 252475
+      },
+      "zone": "new/16593",
+      "chain_zone": "new/16593"
+    }
+  },
+  "npcs": {
+    "248265": {
+      "name_en": "Ormin Pelford",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.764,
+            "y": 0.72
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": null
+    },
+    "240": {
+      "name_en": "Marshal Dughan",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.422,
+            "y": 0.658
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Delegado Durão"
+    },
+    "241": {
+      "name_en": "Remy \\\"Two Times\\\"",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.422,
+            "y": 0.672
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Remy \\\"Duas Vezes\\\""
+    },
+    "562131": {
+      "name_en": "Applejack Still",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.245,
+            "y": 0.582
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": null
+    },
+    "951": {
+      "name_en": "Brother Paxton",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.494,
+            "y": 0.404
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Irmão Paxeco"
+    },
+    "248415": {
+      "name_en": "Tordrin Sternblade",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.512,
+            "y": 0.408
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Tordrin Caulâmina"
+    },
+    "11072": {
+      "name_en": "Kitta Firewind",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.648,
+            "y": 0.706
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Kitta Ventígnea"
+    },
+    "955": {
+      "name_en": "Sergeant De Vries",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.24,
+            "y": 0.73
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Sargento De Vries"
+    },
+    "247226": {
+      "name_en": "Kelsey Fargo",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.472,
+            "y": 0.322
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Kelsey Fargo"
+    },
+    "68": {
+      "name_en": "Wanted Poster",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.245,
+            "y": 0.747
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Pôster de Procura-se"
+    },
+    "248242": {
+      "name_en": "Hamish Bergwort",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.65,
+            "y": 0.698
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Hamish Montavarga"
+    },
+    "248266": {
+      "name_en": "Hagar Lowe",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.824,
+            "y": 0.638
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": null
+    },
+    "248248": {
+      "name_en": "Blixie Fitzwink",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.632,
+            "y": 0.726
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Blixie Fitzpisca"
+    },
+    "197": {
+      "name_en": "Marshal McBride",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.488,
+            "y": 0.416
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Major Belmonte"
+    },
+    "6306": {
+      "name_en": "Helene Peltskinner",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.462,
+            "y": 0.622
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Helene Esfoladora"
+    },
+    "383": {
+      "name_en": "Jason Mathers",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.474,
+            "y": 0.622
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Jasão Matreiro"
+    },
+    "247": {
+      "name_en": "Billy Maclure",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.43,
+            "y": 0.858
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Guinho Madruga"
+    },
+    "1651": {
+      "name_en": "Lee Brown",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.474,
+            "y": 0.622
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Lee Pardo"
+    },
+    "261": {
+      "name_en": "Guard Thomas",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.74,
+            "y": 0.722
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Guarda Tomás"
+    },
+    "244": {
+      "name_en": "Ma Stonefield",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.346,
+            "y": 0.844
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Mama Campedra"
+    },
+    "56": {
+      "name_en": "Rolf's corpse",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.798,
+            "y": 0.556
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Cadáver de Rodolfo"
+    },
+    "55": {
+      "name_en": "A half-eaten body",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.727,
+            "y": 0.603
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Corpo semi-devorado"
+    },
+    "963": {
+      "name_en": "Deputy Rainer",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.242,
+            "y": 0.746
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Delegado Ranieri"
+    },
+    "233": {
+      "name_en": "Farmer Saldean",
+      "locations": {
+        "1436": [
+          {
+            "x": 0.56,
+            "y": 0.312
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Fazendeiro Saldanha"
+    },
+    "823": {
+      "name_en": "Deputy Willem",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.482,
+            "y": 0.428
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Cabo Vilém"
+    },
+    "253": {
+      "name_en": "William Pestle",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.432,
+            "y": 0.658
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Durval Pilão"
+    },
+    "278": {
+      "name_en": "Sara Timberlain",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.794,
+            "y": 0.686
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Sara Albernaz"
+    },
+    "246": {
+      "name_en": "\\\"Auntie\\\" Bernice Stonefield",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.344,
+            "y": 0.842
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "\\\"Titia\\\" Berenice Campedra"
+    },
+    "251": {
+      "name_en": "Maybell Maclure",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.43,
+            "y": 0.896
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Mabel Madruga"
+    },
+    "248": {
+      "name_en": "Gramma Stonefield",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.348,
+            "y": 0.838
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Vovó Campedra"
+    },
+    "252": {
+      "name_en": "Tommy Joe Stonefield",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.298,
+            "y": 0.86
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Tomasino Campedra"
+    },
+    "9296": {
+      "name_en": "Milly Osworth",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.506,
+            "y": 0.394
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Madel Quintana"
+    },
+    "196": {
+      "name_en": "Eagan Peltskinner",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.488,
+            "y": 0.402
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Enzo Peleteiro"
+    },
+    "6774": {
+      "name_en": "Falkhaan Isenstrider",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.456,
+            "y": 0.478
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Falcão Lencastre"
+    },
+    "10616": {
+      "name_en": "Supervisor Raelen",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.814,
+            "y": 0.66
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Supervisora Raquel"
+    },
+    "255": {
+      "name_en": "Gerard Tiller",
+      "locations": {
+        "1429": [
+          {
+            "x": 0.43,
+            "y": 0.856
+          }
+        ]
+      },
+      "in_addon": true,
+      "name_pt": "Geraldo Amanho"
+    },
+    "1646": {
+      "name_en": "Baros Alexston",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.49,
+            "y": 0.302
+          }
+        ]
+      },
+      "name_pt": "Baros Aleixo"
+    },
+    "7766": {
+      "name_en": "Tyrion",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.692,
+            "y": 0.146
+          }
+        ]
+      },
+      "name_pt": "Tyrion"
+    },
+    "1748": {
+      "name_en": "Highlord Bolvar Fordragon",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.78,
+            "y": 0.18
+          }
+        ]
+      },
+      "name_pt": "Grão-lorde Bolvar Fordragon"
+    },
+    "2504": {
+      "name_en": "Donyal Tovald",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.716,
+            "y": 0.074
+          }
+        ]
+      },
+      "name_pt": "Eugênio Belchior"
+    },
+    "4984": {
+      "name_en": "Argos Nightwhisper",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.214,
+            "y": 0.556
+          }
+        ]
+      },
+      "name_pt": "Argos Umbrurmúrio"
+    },
+    "268568": {
+      "name_en": "Roy Lewells",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.386,
+            "y": 0.62
+          }
+        ]
+      },
+      "name_pt": "Rui Lourenço"
+    },
+    "341": {
+      "name_en": "Foreman Oslow",
+      "in_addon": true,
+      "locations": {
+        "1433": [
+          {
+            "x": 0.322,
+            "y": 0.486
+          }
+        ]
+      },
+      "name_pt": "Encarregado Oslow"
+    },
+    "259084": {
+      "name_en": "Denaaris Stargale",
+      "in_addon": true,
+      "locations": {
+        "1416": [
+          {
+            "x": 0.124,
+            "y": 0.562
+          }
+        ]
+      }
+    },
+    "482": {
+      "name_en": "Elling Trias",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.6,
+            "y": 0.644
+          }
+        ]
+      },
+      "name_pt": "Elling Trias"
+    },
+    "483": {
+      "name_en": "Elaine Trias",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.604,
+            "y": 0.634
+          }
+        ]
+      },
+      "name_pt": "Elaine Trias"
+    },
+    "1719": {
+      "name_en": "Warden Thelwater",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.412,
+            "y": 0.58
+          }
+        ]
+      },
+      "name_pt": "Carcereiro-chefe Thelágua"
+    },
+    "332": {
+      "name_en": "Master Mathias Shaw",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.758,
+            "y": 0.598
+          }
+        ]
+      },
+      "name_pt": "Mestre Mathias Shaw"
+    },
+    "1444": {
+      "name_en": "Brother Kristoff",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.458,
+            "y": 0.386
+          }
+        ]
+      },
+      "name_pt": "Irmão Kristoff"
+    },
+    "267118": {
+      "name_en": "Gilbert Gray",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.262,
+            "y": 0.47
+          }
+        ]
+      },
+      "name_pt": "Gilberto Cinéreo"
+    },
+    "3649": {
+      "name_en": "Thundris Windweaver",
+      "in_addon": true,
+      "locations": {
+        "1439": [
+          {
+            "x": 0.374,
+            "y": 0.402
+          }
+        ]
+      },
+      "name_pt": "Trovejius Tecevento"
+    },
+    "1440": {
+      "name_en": "Milton Sheaf",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.74,
+            "y": 0.076
+          }
+        ]
+      },
+      "name_pt": "Milton Resma"
+    },
+    "268511": {
+      "name_en": "Manifest Clerk Philmor",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.304,
+            "y": 0.29
+          }
+        ]
+      }
+    },
+    "1416": {
+      "name_en": "Grimand Elmore",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.516,
+            "y": 0.122
+          }
+        ]
+      },
+      "name_pt": "Grimand Elmore"
+    },
+    "415": {
+      "name_en": "Verner Osgood",
+      "in_addon": true,
+      "locations": {
+        "1433": [
+          {
+            "x": 0.31,
+            "y": 0.474
+          }
+        ]
+      },
+      "name_pt": "Vervo Obom"
+    },
+    "2277": {
+      "name_en": "Loremaster Dibbs",
+      "in_addon": true,
+      "locations": {
+        "1424": [
+          {
+            "x": 0.504,
+            "y": 0.57
+          }
+        ]
+      },
+      "name_pt": "Historiador Dibbs"
+    },
+    "1432": {
+      "name_en": "Renato Gallina",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.57,
+            "y": 0.634
+          }
+        ]
+      },
+      "name_pt": "Renato Callina"
+    },
+    "4962": {
+      "name_en": "Tapoke \"Slim\" Jahn",
+      "in_addon": true,
+      "locations": {
+        "1437": [
+          {
+            "x": 0.106,
+            "y": 0.602
+          }
+        ]
+      },
+      "name_pt": "Tapoke Jahn, o Fino"
+    },
+    "1427": {
+      "name_en": "Harlan Bagley",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.55,
+            "y": 0.56
+          }
+        ]
+      },
+      "name_pt": "Timóteo Fialho"
+    },
+    "14722": {
+      "name_en": "Clavicus Knavingham",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.442,
+            "y": 0.736
+          }
+        ]
+      },
+      "name_pt": "Hilário Grilo"
+    },
+    "4960": {
+      "name_en": "Bishop DeLavey",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.782,
+            "y": 0.252
+          }
+        ]
+      },
+      "name_pt": "Bispo DeLavey"
+    },
+    "1435": {
+      "name_en": "Zardeth of the Black Claw",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.264,
+            "y": 0.784
+          }
+        ]
+      },
+      "name_pt": "Malvino da Garra Preta"
+    },
+    "4959": {
+      "name_en": "Jorgen",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.73,
+            "y": 0.786
+          }
+        ]
+      },
+      "name_pt": "Jorge"
+    },
+    "840": {
+      "name_en": "Watcher Backus",
+      "in_addon": true,
+      "locations": {
+        "1431": [
+          {
+            "x": 0.744,
+            "y": 0.408
+          }
+        ]
+      },
+      "name_pt": "Vigia Backor"
+    },
+    "9560": {
+      "name_en": "Marshal Maxwell",
+      "in_addon": true,
+      "locations": {
+        "1428": [
+          {
+            "x": 0.846,
+            "y": 0.688
+          }
+        ]
+      },
+      "name_pt": "Oficial Maxwell"
+    },
+    "12580": {
+      "name_en": "Reginald Windsor",
+      "in_addon": true,
+      "locations": {
+        "1429": [
+          {
+            "x": 0.32,
+            "y": 0.492
+          }
+        ]
+      },
+      "name_pt": "Reginaldo Vilasboas"
+    },
+    "1428": {
+      "name_en": "Rema Schneider",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.496,
+            "y": 0.554
+          }
+        ]
+      },
+      "name_pt": "Isabel Armarinho"
+    },
+    "4967": {
+      "name_en": "Archmage Tervosh",
+      "in_addon": true,
+      "locations": {
+        "1445": [
+          {
+            "x": 0.664,
+            "y": 0.492
+          }
+        ]
+      },
+      "name_pt": "Arquimago Tervosh"
+    },
+    "4963": {
+      "name_en": "Mikhail",
+      "in_addon": true,
+      "locations": {
+        "1437": [
+          {
+            "x": 0.106,
+            "y": 0.606
+          }
+        ]
+      },
+      "name_pt": "Mikhail"
+    },
+    "4968": {
+      "name_en": "Lady Jaina Proudmoore",
+      "in_addon": true,
+      "locations": {
+        "1445": [
+          {
+            "x": 0.452,
+            "y": 0.242
+          }
+        ]
+      },
+      "name_pt": "Grã-senhora Jaina Proudmore"
+    },
+    "4961": {
+      "name_en": "Dashel Stonefist",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.702,
+            "y": 0.448
+          }
+        ]
+      },
+      "name_pt": "Dashel Punhopétreo"
+    },
+    "5386": {
+      "name_en": "Acolyte Dellis",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.408,
+            "y": 0.64
+          }
+        ]
+      },
+      "name_pt": "Acólito Dellis"
+    },
+    "4982": {
+      "name_en": "Thomas",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.412,
+            "y": 0.306
+          }
+        ]
+      },
+      "name_pt": "Tomás"
+    },
+    "5384": {
+      "name_en": "Brohann Caskbelly",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.642,
+            "y": 0.208
+          }
+        ]
+      },
+      "name_pt": "Brohann Barrilga"
+    },
+    "4964": {
+      "name_en": "Commander Samaul",
+      "in_addon": true,
+      "locations": {
+        "1445": [
+          {
+            "x": 0.68,
+            "y": 0.486
+          }
+        ]
+      },
+      "name_pt": "Comandante Samaul"
+    },
+    "5081": {
+      "name_en": "Connor Rivers",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.404,
+            "y": 0.916
+          }
+        ]
+      },
+      "name_pt": "Carlo Rivera"
+    },
+    "4966": {
+      "name_en": "Private Hendel",
+      "in_addon": true,
+      "locations": {
+        "1445": [
+          {
+            "x": 0.452,
+            "y": 0.246
+          }
+        ]
+      },
+      "name_pt": "Recruta Remos"
+    },
+    "2198": {
+      "name_en": "Crier Goodman",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.55,
+            "y": 0.628
+          }
+        ]
+      },
+      "name_pt": "Brados Bonhomme"
+    },
+    "338": {
+      "name_en": "Mazen Mac'Nadir",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.414,
+            "y": 0.642
+          }
+        ]
+      },
+      "name_pt": "Mazen Mac'Nadir"
+    },
+    "5566": {
+      "name_en": "Tannysa",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.448,
+            "y": 0.77
+          }
+        ]
+      },
+      "name_pt": "Tannysa"
+    },
+    "2708": {
+      "name_en": "Archmage Malin",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.398,
+            "y": 0.812
+          }
+        ]
+      },
+      "name_pt": "Arquimago Malin"
+    },
+    "5694": {
+      "name_en": "High Sorcerer Andromath",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.376,
+            "y": 0.816
+          }
+        ]
+      },
+      "name_pt": "Grão-Feiticeiro Andromath"
+    },
+    "12425": {
+      "name_en": "Flint Shadowmore",
+      "in_addon": true,
+      "locations": {
+        "1422": [
+          {
+            "x": 0.436,
+            "y": 0.844
+          }
+        ]
+      },
+      "name_pt": "Flint Umbramais"
+    },
+    "1141": {
+      "name_en": "Angus Stern",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.414,
+            "y": 0.892
+          }
+        ]
+      },
+      "name_pt": "Angelo Severo"
+    },
+    "2285": {
+      "name_en": "Count Remington Ridgewell",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.74,
+            "y": 0.3
+          }
+        ]
+      },
+      "name_pt": "Conde Capistrano de Espargosa"
+    },
+    "10782": {
+      "name_en": "Royal Factor Bathrilor",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.486,
+            "y": 0.306
+          }
+        ]
+      },
+      "name_pt": "Administrador Real Bathrilor"
+    },
+    "14394": {
+      "name_en": "Major Mattingly",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.614,
+            "y": 0.786
+          }
+        ]
+      },
+      "name_pt": "Major Valadão"
+    },
+    "6740": {
+      "name_en": "Innkeeper Allison",
+      "in_addon": true,
+      "locations": {
+        "1453": [
+          {
+            "x": 0.526,
+            "y": 0.656
+          }
+        ]
+      },
+      "name_pt": "Estalajadeira Cristine"
+    },
+    "253590": {
+      "name_en": "Valennia Stormfist",
+      "in_addon": true
+    },
+    "252475": {
+      "name_en": "Elaadrin Evengale",
+      "in_addon": true,
+      "name_pt": "Elaadrin Plenovento"
+    },
+    "252476": {
+      "name_en": "Talaanis Shadowsong",
+      "in_addon": true,
+      "name_pt": "Talaanis Cantonegro"
+    }
+  },
+  "summary": {
+    "zones_total": 119,
+    "zones_done": 8,
+    "zones_partial": 3,
+    "zones_pending": 108,
+    "quests": 168,
+    "quests_missing_source": [
+      137,
+      373,
+      7495,
+      7961,
+      7962,
+      91740,
+      91741,
+      91746,
+      95771,
+      98190,
+      98191,
+      98219
+    ],
+    "quests_missing_pt": [
+      91724,
+      91732,
+      91733,
+      91736,
+      91738,
+      91740,
+      91746,
+      91751,
+      91753,
+      93089,
+      93835,
+      94369,
+      94946,
+      95771,
+      97220,
+      97222,
+      98190,
+      98191,
+      98219,
+      99127,
+      99128,
+      99129,
+      99130,
+      99131,
+      99143
+    ],
+    "quests_missing_series": [],
+    "quests_outside_addon": [],
+    "npcs": 91,
+    "npcs_with_gaps": [
+      248265,
+      248266,
+      252475,
+      252476,
+      253590,
+      259084,
+      268511,
+      562131
+    ]
+  }
+}

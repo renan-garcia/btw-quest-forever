@@ -1,0 +1,35 @@
+# Referências baixadas e configurações locais de ferramentas.
+/tmp/
+/.cursor/
+/.vscode/
+/.idea/
+
+# Downloads e backups; progress.json é versionado para continuar a geração.
+/Tooling/cache/
+/Tooling/state/backups/
+
+# Python.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credenciais e configurações privadas.
+.env
+.env.*
+!.env.example
+
+# Arquivos temporários do sistema e do editor.
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*~

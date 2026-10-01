@@ -1,0 +1,18 @@
+# Normaliza arquivos de texto para evitar diferenças de fim de linha.
+* text=auto
+*.lua text eol=lf
+*.xml text eol=lf
+*.toc text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Texturas do addon são binárias.
+*.tga binary
+*.blp binary
+*.png binary
+*.jpg binary
+*.zip binary
